@@ -12,8 +12,6 @@ const CardBody = () => {
 					A floral, solar and voluptuous interpretation composed by Olivier
 					Polge, Perfumer-Creator for the House of CHANEL.
 				</p>
-<<<<<<< HEAD
-=======
 				<div className='price'>
 					<span className='main-price'>$149.99</span>
 					<span>
@@ -21,7 +19,6 @@ const CardBody = () => {
 					</span>
 				</div>
 				<Button />
->>>>>>> mac
 			</StyledCardBody>
 		</>
 	)
