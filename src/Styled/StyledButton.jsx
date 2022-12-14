@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const StyledButton = styled.button`
 	width: 100%;
 	padding: 0.75rem 1.5rem;
-	/* font-size:0.8375rem;
-  line-height: 17px; */
+	font-size:0.8375rem;
+  line-height: 17px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

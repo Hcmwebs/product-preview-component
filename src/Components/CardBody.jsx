@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyledCardBody } from '../Styled'
-import { Button } from './Button'
+import { Button } from './index'
 
 const CardBody = () => {
 	return (
@@ -12,8 +12,6 @@ const CardBody = () => {
 					A floral, solar and voluptuous interpretation composed by Olivier
 					Polge, Perfumer-Creator for the House of CHANEL.
 				</p>
-
-				<Button />
 			</StyledCardBody>
 		</>
 	)
