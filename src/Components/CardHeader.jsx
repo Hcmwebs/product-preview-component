@@ -1,17 +1,18 @@
 import React from 'react'
 
-import {StyledCardHeader} from '../Styled'
+import { StyledCardHeader } from '../Styled'
 
 const CardHeader = () => {
 	return (
 		<>
 			<StyledCardHeader>
-				<a
-					href='https://www.frontendmentor.io/'
-					target='_blank'
-					rel='noopener noreferrer'>
-					<img src='./assets/image-qr-code.png' alt='qr-code' />
-				</a>
+				<picture>
+					<source
+						srcSet='./assets/image-product-desktop.jpg'
+						media=' (min-width: 600px)'
+					/>
+					<img src='./assets/image-product-mobile.jpg' alt='product preview' />
+				</picture>
 			</StyledCardHeader>
 		</>
 	)
