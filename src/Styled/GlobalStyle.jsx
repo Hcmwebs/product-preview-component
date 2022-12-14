@@ -16,42 +16,45 @@ html{
 
 body {
 	min-height:100vh;
-	font-family: 'Outfit', sans-serif;
-  line-height: 1.75;
-  font-weight:400;
-	background: rgba(213, 225, 239, 1);
+	font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+	background:rgb(242, 234, 226);
 	display: grid;
 	place-items: center;
 
 }
 
-p {margin: 0;}
 
-h1, h2, h3, h4, h5 {
+
+h1, h2, p {
   margin:0;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 700;
-  line-height: 1.3;
 }
 
 h1 {
 
-  font-size: 3.052rem;
+  font-size: 0.75rem;
+  font-weight:500;
+  font-family: 'Montserrat', sans-serif;
+  line-height:1rem;
+  letter-spacing:5px;
+  color:rgb(108, 114, 137);
+  text-transform: uppercase;
+
 }
 
-h2 {font-size: 2.441rem;}
+h2 {
+  font-size: 2.441rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: rgb(28, 35, 43);
+}
 
-h3 {font-size: 1.953rem;}
+p{
+  font-size:0.875rem;
+  line-height:1.4375rem;
+}
 
-h4 {font-size: 1.563rem;}
-
-h5 {font-size: 1.25rem;}
-
-small, .text_small {font-size: 0.8rem;}
-
-
-
-img, picture, svg, video {
+img, picture, svg {
   display: block;
   max-width:100%;
 }
