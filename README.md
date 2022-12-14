@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Behold the  my solution](https://www.frontendmentor.io/solutions/product-preview-card-component-6jG3_nKXp-)
+- Live Site URL: [Gone Live](https://product-preview-component-mauve.vercel.app/)
 
 ## My process
 
