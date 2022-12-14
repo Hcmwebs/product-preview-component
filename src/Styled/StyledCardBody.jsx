@@ -1,30 +1,36 @@
 import styled from 'styled-components'
 
 const StyledCardBody = styled.div`
-	width: min(100%, 288px);
+	width: 100%;
+	padding: 1.5rem;
 	display: grid;
-	place-items: center;
+	justify-content: start;
+	align-items: center;
 	gap: 1rem;
 
-	h1 {
-		font-size: 22px;
-		font-weight: 700;
-		line-height: 28px;
-		text-align: center;
-		margin: 0;
-		color: rgba(31, 49, 79, 1);
+	.price {
+		width: 100%;
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		gap: 1.25rem;
 	}
 
-	p {
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 19px;
-		margin: 0;
-		padding: 1rem;
-		padding-top: 0;
-		text-align: center;
-		letter-spacing: 0.19px;
-		color: rgba(125, 136, 158, 1);
+	.main-price {
+		font-family: 'Fraunces', serif;
+		font-size: 2rem;
+		font-weight: 700;
+		line-height:2rem;
+		color: rgba(61, 129, 104, 1);
+
+	}
+
+	.strike-price{
+		font-family: 'Montserrat', sans-serif;
+		font-size:13px;
+		font-weight: 500;
+		line-height: 23px;
+		
 	}
 `
 export default StyledCardBody

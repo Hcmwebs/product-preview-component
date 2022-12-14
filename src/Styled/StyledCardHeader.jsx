@@ -1,27 +1,16 @@
 import styled from 'styled-components'
 
-
 const StyledCardHeader = styled.div`
 	display: grid;
 	place-items: center;
-	width: 288px;
-	height: 288px;
+	width: 100%;
+	min-height: 240px;
 
-
-	a {
-		text-decoration: none;
-		display: block;
-		width: 100%;
-		height: 100%;
-		cursor: pointer;
-	}
 
 	img {
-		width: 100%;
 		height: 100%;
-		display: block;
-		border-radius: 10px;
 		object-fit: cover;
+		border-radius: 10px 10px 0 0;
 		overflow: hidden;
 	}
 `

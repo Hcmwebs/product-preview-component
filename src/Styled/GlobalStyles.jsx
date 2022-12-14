@@ -18,6 +18,7 @@ body {
 	min-height:100vh;
 	font-family: 'Montserrat', sans-serif;
   font-weight:500;
+  color:rgb(108, 114, 137);
 	background:rgb(242, 234, 226);
 	display: grid;
 	place-items: center;
@@ -43,7 +44,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.441rem;
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 2rem;
   color: rgb(28, 35, 43);
