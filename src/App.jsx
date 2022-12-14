@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, GlobalStyle } from './Styled'
+import { Container, GlobalStyles } from './Styled'
 
 const App = () => {
 	return (
