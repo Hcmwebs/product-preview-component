@@ -4,7 +4,7 @@ import { Container, GlobalStyle } from './Styled'
 const App = () => {
 	return (
 		<>
-			<GlobalStyle />
+			<GlobalStyles />
 			<Container>
 				<Card />
 			</Container>
