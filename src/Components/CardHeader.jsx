@@ -5,7 +5,7 @@ import { StyledCardHeader } from '../Styled'
 const CardHeader = () => {
 	return (
 		<>
-			<StyledCardHeader>
+			<StyledCardHeader className = 'card-header'>
 				<picture>
 					<source
 						srcSet='./assets/image-product-desktop.jpg'
