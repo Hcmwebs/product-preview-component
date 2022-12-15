@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyledCard = styled.div`
 	width: min(100%, 600px);
-	max-height: 600px;
+	max-height: 620px;
 	display: grid;
 	place-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -15,8 +15,9 @@ const StyledCard = styled.div`
 		box-shadow: 0px 20px 25px 2px rgba(0, 0, 0, 0.25);
 	}
 	@media (min-width: 600px) {
+		max-height: 450px;
 		.card-header {
-			height:450px;
+			height: 450px;
 			img {
 				border-radius: 10px 0 0 10px;
 			}
