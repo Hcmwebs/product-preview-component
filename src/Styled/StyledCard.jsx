@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyledCard = styled.div`
 	width: min(100%, 600px);
-	max-height: 620px;
+	/* max-height: 620px; */
 	display: grid;
 	place-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
