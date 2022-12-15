@@ -20,6 +20,7 @@ const StyledCard = styled.div`
 			max-height: 450px;
 			img {
 				border-radius: 10px 0 0 10px;
+				max-height: 100%;
 			}
 		}
 	}

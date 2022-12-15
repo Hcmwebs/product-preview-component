@@ -7,7 +7,6 @@ const StyledCardHeader = styled.div`
 	/* max-height: 240px; */
 
 	img {
-		height: 100%;
 		object-fit: cover;
 		border-radius: 10px 10px 0 0;
 		overflow: hidden;
