@@ -4,7 +4,7 @@ const StyledCardHeader = styled.div`
 	display: grid;
 	place-items: center;
 	width: 100%;
-	height: 240px;
+	max-height: 240px;
 
 	img {
 		height: 100%;

@@ -17,7 +17,7 @@ const StyledCard = styled.div`
 	@media (min-width: 600px) {
 		max-height: 450px;
 		.card-header {
-			height: 450px;
+			max-height: 450px;
 			img {
 				border-radius: 10px 0 0 10px;
 			}
